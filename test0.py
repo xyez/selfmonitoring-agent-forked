@@ -1,0 +1,1 @@
+--exp_name cogrounding-selfmonitoring-agent --batch_size 64 --img_fc_use_angle 1 --img_feat_input_dim 2176 --img_fc_dim 1024 --rnn_hidden_size 512 --eval_every_epochs 5 --use_ignore_index 1 --arch self-monitoring --value_loss_weight 0.5 --monitor_sigmoid 0 --mse_sum 0 --fix_action_ended 0 --resume best --eval_only 1 --progress_inference 1 --beam_size 5
